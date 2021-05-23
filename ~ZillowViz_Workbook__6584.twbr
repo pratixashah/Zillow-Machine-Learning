@@ -1,0 +1,2641 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20211.21.0420.1112                               -->
+<workbook source-build='2021.1.1 (20211.21.0420.1112)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <MapboxVectorStylesAndLayers />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <datasources>
+    <datasource caption='uszips (uszips)' inline='true' name='federated.139q2o10ei1dhn12tiah80vvijvp' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='uszips' name='google-sheets.03n1eus0dc3dgn13556z91hfg9o4'>
+            <connection class='google-sheets' cleaning='no' compat='no' dataRefreshTime='' filename='uszips' googleSheetId='1RyVgixMjG8jqpqM5Ad-zhciEpgmmpg33Q6Gb4J8Au3Q' interpretationMode='8' mimeType='application/vnd.google-apps.spreadsheet' server='' server-oauth='' username='shah.pratixa@gmail.com' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='google-sheets.03n1eus0dc3dgn13556z91hfg9o4' name='uszips' table='[uszips$]' type='table'>
+          <columns gridOrigin='A1:R10001:no:A1:R10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='zip' ordinal='0' />
+            <column datatype='real' name='lat' ordinal='1' />
+            <column datatype='real' name='lng' ordinal='2' />
+            <column datatype='string' name='city' ordinal='3' />
+            <column datatype='string' name='state_id' ordinal='4' />
+            <column datatype='string' name='state_name' ordinal='5' />
+            <column datatype='boolean' name='zcta' ordinal='6' />
+            <column datatype='string' name='parent_zcta' ordinal='7' />
+            <column datatype='integer' name='population' ordinal='8' />
+            <column datatype='real' name='density' ordinal='9' />
+            <column datatype='integer' name='county_fips' ordinal='10' />
+            <column datatype='string' name='county_name' ordinal='11' />
+            <column datatype='string' name='county_weights' ordinal='12' />
+            <column datatype='string' name='county_names_all' ordinal='13' />
+            <column datatype='string' name='county_fips_all' ordinal='14' />
+            <column datatype='boolean' name='imprecise' ordinal='15' />
+            <column datatype='boolean' name='military' ordinal='16' />
+            <column datatype='string' name='timezone' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='google-sheets.03n1eus0dc3dgn13556z91hfg9o4' name='uszips' table='[uszips$]' type='table'>
+          <columns gridOrigin='A1:R10001:no:A1:R10001:0' header='yes' outcome='2'>
+            <column datatype='integer' name='zip' ordinal='0' />
+            <column datatype='real' name='lat' ordinal='1' />
+            <column datatype='real' name='lng' ordinal='2' />
+            <column datatype='string' name='city' ordinal='3' />
+            <column datatype='string' name='state_id' ordinal='4' />
+            <column datatype='string' name='state_name' ordinal='5' />
+            <column datatype='boolean' name='zcta' ordinal='6' />
+            <column datatype='string' name='parent_zcta' ordinal='7' />
+            <column datatype='integer' name='population' ordinal='8' />
+            <column datatype='real' name='density' ordinal='9' />
+            <column datatype='integer' name='county_fips' ordinal='10' />
+            <column datatype='string' name='county_name' ordinal='11' />
+            <column datatype='string' name='county_weights' ordinal='12' />
+            <column datatype='string' name='county_names_all' ordinal='13' />
+            <column datatype='string' name='county_fips_all' ordinal='14' />
+            <column datatype='boolean' name='imprecise' ordinal='15' />
+            <column datatype='boolean' name='military' ordinal='16' />
+            <column datatype='string' name='timezone' ordinal='17' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R10001:no:A1:R10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zip</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[zip]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>zip</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lat]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>lat</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lng</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lng]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>lng</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state_id]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>state_id</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state_name]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>state_name</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zcta</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[zcta]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>zcta</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>parent_zcta</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[parent_zcta]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>parent_zcta</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[population]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>population</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[density]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>density</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_fips</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[county_fips]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>county_fips</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[county_name]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>county_name</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_weights</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[county_weights]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>county_weights</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_names_all</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[county_names_all]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>county_names_all</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_fips_all</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[county_fips_all]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>county_fips_all</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>imprecise</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[imprecise]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>imprecise</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>military</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[military]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>military</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timezone</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[timezone]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>timezone</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_3D64684F9A0343E291E8A1E106168857]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <_.fcp.ObjectModelTableType.true...column caption='uszips' datatype='table' name='[__tableau_internal_object_id__].[uszips_3D64684F9A0343E291E8A1E106168857]' role='measure' type='quantitative' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='County Fips' datatype='integer' name='[county_fips]' role='measure' type='quantitative' />
+      <column caption='County Fips All' datatype='string' name='[county_fips_all]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County Name' datatype='string' name='[county_name]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County Names All' datatype='string' name='[county_names_all]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County Weights' datatype='string' name='[county_weights]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Density' datatype='real' name='[density]' role='measure' type='quantitative' />
+      <column caption='Imprecise' datatype='boolean' name='[imprecise]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Lat' datatype='real' name='[lat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Lng' datatype='real' name='[lng]' role='measure' type='quantitative' />
+      <column caption='Military' datatype='boolean' name='[military]' role='dimension' type='nominal' />
+      <column caption='Parent Zcta' datatype='string' name='[parent_zcta]' role='dimension' type='nominal' />
+      <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
+      <column caption='State Id' datatype='string' name='[state_id]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='State Name' datatype='string' name='[state_name]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Timezone' datatype='string' name='[timezone]' role='dimension' type='nominal' />
+      <column caption='Zcta' datatype='boolean' name='[zcta]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Zip' datatype='integer' default-format='*00000' name='[zip]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='uszips' id='uszips_3D64684F9A0343E291E8A1E106168857'>
+            <properties context=''>
+              <relation connection='google-sheets.03n1eus0dc3dgn13556z91hfg9o4' name='uszips' table='[uszips$]' type='table'>
+                <columns gridOrigin='A1:R10001:no:A1:R10001:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='zip' ordinal='0' />
+                  <column datatype='real' name='lat' ordinal='1' />
+                  <column datatype='real' name='lng' ordinal='2' />
+                  <column datatype='string' name='city' ordinal='3' />
+                  <column datatype='string' name='state_id' ordinal='4' />
+                  <column datatype='string' name='state_name' ordinal='5' />
+                  <column datatype='boolean' name='zcta' ordinal='6' />
+                  <column datatype='string' name='parent_zcta' ordinal='7' />
+                  <column datatype='integer' name='population' ordinal='8' />
+                  <column datatype='real' name='density' ordinal='9' />
+                  <column datatype='integer' name='county_fips' ordinal='10' />
+                  <column datatype='string' name='county_name' ordinal='11' />
+                  <column datatype='string' name='county_weights' ordinal='12' />
+                  <column datatype='string' name='county_names_all' ordinal='13' />
+                  <column datatype='string' name='county_fips_all' ordinal='14' />
+                  <column datatype='boolean' name='imprecise' ordinal='15' />
+                  <column datatype='boolean' name='military' ordinal='16' />
+                  <column datatype='string' name='timezone' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+    <datasource caption='State_time_series (State_time_series)' inline='true' name='federated.1k2dj6y1ydbmjj14gnn0s0gwemsw' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='State_time_series' name='google-sheets.0f9hegc0cy1pb7123m2xv1b0lhva'>
+            <connection class='google-sheets' cleaning='no' compat='no' dataRefreshTime='' filename='State_time_series' googleSheetId='1cT8y_UT-4amdxD89V6WlY0zjNDQFS63GzYvP-9dzyu0' interpretationMode='8' mimeType='application/vnd.google-apps.spreadsheet' server='' server-oauth='' username='shah.pratixa@gmail.com' validate='no' />
+          </named-connection>
+          <named-connection caption='uszips' name='google-sheets.1fssp0y094mgmk1e4rw001mblmsh'>
+            <connection class='google-sheets' cleaning='no' compat='no' dataRefreshTime='' filename='uszips' googleSheetId='1RyVgixMjG8jqpqM5Ad-zhciEpgmmpg33Q6Gb4J8Au3Q' interpretationMode='8' mimeType='application/vnd.google-apps.spreadsheet' server='' server-oauth='' username='shah.pratixa@gmail.com' validate='no' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='google-sheets.0f9hegc0cy1pb7123m2xv1b0lhva' name='State_time_series' table='[State_time_series$]' type='table'>
+          <columns gridOrigin='A1:CD10001:no:A1:CD10001:0' header='yes' outcome='2'>
+            <column datatype='date' name='Date' ordinal='0' />
+            <column datatype='string' name='RegionName' ordinal='1' />
+            <column datatype='real' name='DaysOnZillow_AllHomes' ordinal='2' />
+            <column datatype='integer' name='InventorySeasonallyAdjusted_AllHomes' ordinal='3' />
+            <column datatype='integer' name='InventoryRaw_AllHomes' ordinal='4' />
+            <column datatype='real' name='MedianListingPricePerSqft_1Bedroom' ordinal='5' />
+            <column datatype='real' name='MedianListingPricePerSqft_2Bedroom' ordinal='6' />
+            <column datatype='real' name='MedianListingPricePerSqft_3Bedroom' ordinal='7' />
+            <column datatype='real' name='MedianListingPricePerSqft_4Bedroom' ordinal='8' />
+            <column datatype='real' name='MedianListingPricePerSqft_5BedroomOrMore' ordinal='9' />
+            <column datatype='real' name='MedianListingPricePerSqft_AllHomes' ordinal='10' />
+            <column datatype='real' name='MedianListingPricePerSqft_CondoCoop' ordinal='11' />
+            <column datatype='real' name='MedianListingPricePerSqft_DuplexTriplex' ordinal='12' />
+            <column datatype='real' name='MedianListingPricePerSqft_SingleFamilyResidence' ordinal='13' />
+            <column datatype='real' name='MedianListingPrice_1Bedroom' ordinal='14' />
+            <column datatype='real' name='MedianListingPrice_2Bedroom' ordinal='15' />
+            <column datatype='real' name='MedianListingPrice_3Bedroom' ordinal='16' />
+            <column datatype='real' name='MedianListingPrice_4Bedroom' ordinal='17' />
+            <column datatype='real' name='MedianListingPrice_5BedroomOrMore' ordinal='18' />
+            <column datatype='real' name='MedianListingPrice_AllHomes' ordinal='19' />
+            <column datatype='real' name='MedianListingPrice_CondoCoop' ordinal='20' />
+            <column datatype='real' name='MedianListingPrice_DuplexTriplex' ordinal='21' />
+            <column datatype='real' name='MedianListingPrice_SingleFamilyResidence' ordinal='22' />
+            <column datatype='real' name='MedianPctOfPriceReduction_AllHomes' ordinal='23' />
+            <column datatype='real' name='MedianPctOfPriceReduction_CondoCoop' ordinal='24' />
+            <column datatype='real' name='MedianPctOfPriceReduction_SingleFamilyResidence' ordinal='25' />
+            <column datatype='real' name='MedianPriceCutDollar_AllHomes' ordinal='26' />
+            <column datatype='real' name='MedianPriceCutDollar_CondoCoop' ordinal='27' />
+            <column datatype='real' name='MedianPriceCutDollar_SingleFamilyResidence' ordinal='28' />
+            <column datatype='real' name='MedianRentalPricePerSqft_1Bedroom' ordinal='29' />
+            <column datatype='real' name='MedianRentalPricePerSqft_2Bedroom' ordinal='30' />
+            <column datatype='real' name='MedianRentalPricePerSqft_3Bedroom' ordinal='31' />
+            <column datatype='real' name='MedianRentalPricePerSqft_4Bedroom' ordinal='32' />
+            <column datatype='real' name='MedianRentalPricePerSqft_5BedroomOrMore' ordinal='33' />
+            <column datatype='real' name='MedianRentalPricePerSqft_AllHomes' ordinal='34' />
+            <column datatype='real' name='MedianRentalPricePerSqft_CondoCoop' ordinal='35' />
+            <column datatype='real' name='MedianRentalPricePerSqft_DuplexTriplex' ordinal='36' />
+            <column datatype='real' name='MedianRentalPricePerSqft_MultiFamilyResidence5PlusUnits' ordinal='37' />
+            <column datatype='real' name='MedianRentalPricePerSqft_SingleFamilyResidence' ordinal='38' />
+            <column datatype='real' name='MedianRentalPricePerSqft_Studio' ordinal='39' />
+            <column datatype='real' name='MedianRentalPrice_1Bedroom' ordinal='40' />
+            <column datatype='real' name='MedianRentalPrice_2Bedroom' ordinal='41' />
+            <column datatype='real' name='MedianRentalPrice_3Bedroom' ordinal='42' />
+            <column datatype='real' name='MedianRentalPrice_4Bedroom' ordinal='43' />
+            <column datatype='real' name='MedianRentalPrice_5BedroomOrMore' ordinal='44' />
+            <column datatype='real' name='MedianRentalPrice_AllHomes' ordinal='45' />
+            <column datatype='real' name='MedianRentalPrice_CondoCoop' ordinal='46' />
+            <column datatype='real' name='MedianRentalPrice_DuplexTriplex' ordinal='47' />
+            <column datatype='real' name='MedianRentalPrice_MultiFamilyResidence5PlusUnits' ordinal='48' />
+            <column datatype='real' name='MedianRentalPrice_SingleFamilyResidence' ordinal='49' />
+            <column datatype='real' name='MedianRentalPrice_Studio' ordinal='50' />
+            <column datatype='integer' name='ZHVIPerSqft_AllHomes' ordinal='51' />
+            <column datatype='real' name='PctOfHomesDecreasingInValues_AllHomes' ordinal='52' />
+            <column datatype='real' name='PctOfHomesIncreasingInValues_AllHomes' ordinal='53' />
+            <column datatype='real' name='PctOfHomesSellingForGain_AllHomes' ordinal='54' />
+            <column datatype='real' name='PctOfHomesSellingForLoss_AllHomes' ordinal='55' />
+            <column datatype='real' name='PctOfListingsWithPriceReductionsSeasAdj_AllHomes' ordinal='56' />
+            <column datatype='real' name='PctOfListingsWithPriceReductionsSeasAdj_CondoCoop' ordinal='57' />
+            <column datatype='real' name='PctOfListingsWithPriceReductionsSeasAdj_SingleFamilyResidence' ordinal='58' />
+            <column datatype='real' name='PctOfListingsWithPriceReductions_AllHomes' ordinal='59' />
+            <column datatype='real' name='PctOfListingsWithPriceReductions_CondoCoop' ordinal='60' />
+            <column datatype='real' name='PctOfListingsWithPriceReductions_SingleFamilyResidence' ordinal='61' />
+            <column datatype='real' name='PriceToRentRatio_AllHomes' ordinal='62' />
+            <column datatype='integer' name='Sale_Counts' ordinal='63' />
+            <column datatype='integer' name='Sale_Counts_Seas_Adj' ordinal='64' />
+            <column datatype='integer' name='Sale_Prices' ordinal='65' />
+            <column datatype='integer' name='ZHVI_1bedroom' ordinal='66' />
+            <column datatype='integer' name='ZHVI_2bedroom' ordinal='67' />
+            <column datatype='integer' name='ZHVI_3bedroom' ordinal='68' />
+            <column datatype='integer' name='ZHVI_4bedroom' ordinal='69' />
+            <column datatype='integer' name='ZHVI_5BedroomOrMore' ordinal='70' />
+            <column datatype='integer' name='ZHVI_AllHomes' ordinal='71' />
+            <column datatype='integer' name='ZHVI_BottomTier' ordinal='72' />
+            <column datatype='integer' name='ZHVI_CondoCoop' ordinal='73' />
+            <column datatype='integer' name='ZHVI_MiddleTier' ordinal='74' />
+            <column datatype='integer' name='ZHVI_SingleFamilyResidence' ordinal='75' />
+            <column datatype='integer' name='ZHVI_TopTier' ordinal='76' />
+            <column datatype='integer' name='ZRI_AllHomes' ordinal='77' />
+            <column datatype='integer' name='ZRI_AllHomesPlusMultifamily' ordinal='78' />
+            <column datatype='real' name='ZriPerSqft_AllHomes' ordinal='79' />
+            <column datatype='integer' name='Zri_MultiFamilyResidenceRental' ordinal='80' />
+            <column datatype='integer' name='Zri_SingleFamilyResidenceRental' ordinal='81' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation type='collection'>
+          <relation connection='google-sheets.0f9hegc0cy1pb7123m2xv1b0lhva' name='State_time_series' table='[State_time_series$]' type='table'>
+            <columns gridOrigin='A1:CD10001:no:A1:CD10001:0' header='yes' outcome='2'>
+              <column datatype='date' name='Date' ordinal='0' />
+              <column datatype='string' name='RegionName' ordinal='1' />
+              <column datatype='real' name='DaysOnZillow_AllHomes' ordinal='2' />
+              <column datatype='integer' name='InventorySeasonallyAdjusted_AllHomes' ordinal='3' />
+              <column datatype='integer' name='InventoryRaw_AllHomes' ordinal='4' />
+              <column datatype='real' name='MedianListingPricePerSqft_1Bedroom' ordinal='5' />
+              <column datatype='real' name='MedianListingPricePerSqft_2Bedroom' ordinal='6' />
+              <column datatype='real' name='MedianListingPricePerSqft_3Bedroom' ordinal='7' />
+              <column datatype='real' name='MedianListingPricePerSqft_4Bedroom' ordinal='8' />
+              <column datatype='real' name='MedianListingPricePerSqft_5BedroomOrMore' ordinal='9' />
+              <column datatype='real' name='MedianListingPricePerSqft_AllHomes' ordinal='10' />
+              <column datatype='real' name='MedianListingPricePerSqft_CondoCoop' ordinal='11' />
+              <column datatype='real' name='MedianListingPricePerSqft_DuplexTriplex' ordinal='12' />
+              <column datatype='real' name='MedianListingPricePerSqft_SingleFamilyResidence' ordinal='13' />
+              <column datatype='real' name='MedianListingPrice_1Bedroom' ordinal='14' />
+              <column datatype='real' name='MedianListingPrice_2Bedroom' ordinal='15' />
+              <column datatype='real' name='MedianListingPrice_3Bedroom' ordinal='16' />
+              <column datatype='real' name='MedianListingPrice_4Bedroom' ordinal='17' />
+              <column datatype='real' name='MedianListingPrice_5BedroomOrMore' ordinal='18' />
+              <column datatype='real' name='MedianListingPrice_AllHomes' ordinal='19' />
+              <column datatype='real' name='MedianListingPrice_CondoCoop' ordinal='20' />
+              <column datatype='real' name='MedianListingPrice_DuplexTriplex' ordinal='21' />
+              <column datatype='real' name='MedianListingPrice_SingleFamilyResidence' ordinal='22' />
+              <column datatype='real' name='MedianPctOfPriceReduction_AllHomes' ordinal='23' />
+              <column datatype='real' name='MedianPctOfPriceReduction_CondoCoop' ordinal='24' />
+              <column datatype='real' name='MedianPctOfPriceReduction_SingleFamilyResidence' ordinal='25' />
+              <column datatype='real' name='MedianPriceCutDollar_AllHomes' ordinal='26' />
+              <column datatype='real' name='MedianPriceCutDollar_CondoCoop' ordinal='27' />
+              <column datatype='real' name='MedianPriceCutDollar_SingleFamilyResidence' ordinal='28' />
+              <column datatype='real' name='MedianRentalPricePerSqft_1Bedroom' ordinal='29' />
+              <column datatype='real' name='MedianRentalPricePerSqft_2Bedroom' ordinal='30' />
+              <column datatype='real' name='MedianRentalPricePerSqft_3Bedroom' ordinal='31' />
+              <column datatype='real' name='MedianRentalPricePerSqft_4Bedroom' ordinal='32' />
+              <column datatype='real' name='MedianRentalPricePerSqft_5BedroomOrMore' ordinal='33' />
+              <column datatype='real' name='MedianRentalPricePerSqft_AllHomes' ordinal='34' />
+              <column datatype='real' name='MedianRentalPricePerSqft_CondoCoop' ordinal='35' />
+              <column datatype='real' name='MedianRentalPricePerSqft_DuplexTriplex' ordinal='36' />
+              <column datatype='real' name='MedianRentalPricePerSqft_MultiFamilyResidence5PlusUnits' ordinal='37' />
+              <column datatype='real' name='MedianRentalPricePerSqft_SingleFamilyResidence' ordinal='38' />
+              <column datatype='real' name='MedianRentalPricePerSqft_Studio' ordinal='39' />
+              <column datatype='real' name='MedianRentalPrice_1Bedroom' ordinal='40' />
+              <column datatype='real' name='MedianRentalPrice_2Bedroom' ordinal='41' />
+              <column datatype='real' name='MedianRentalPrice_3Bedroom' ordinal='42' />
+              <column datatype='real' name='MedianRentalPrice_4Bedroom' ordinal='43' />
+              <column datatype='real' name='MedianRentalPrice_5BedroomOrMore' ordinal='44' />
+              <column datatype='real' name='MedianRentalPrice_AllHomes' ordinal='45' />
+              <column datatype='real' name='MedianRentalPrice_CondoCoop' ordinal='46' />
+              <column datatype='real' name='MedianRentalPrice_DuplexTriplex' ordinal='47' />
+              <column datatype='real' name='MedianRentalPrice_MultiFamilyResidence5PlusUnits' ordinal='48' />
+              <column datatype='real' name='MedianRentalPrice_SingleFamilyResidence' ordinal='49' />
+              <column datatype='real' name='MedianRentalPrice_Studio' ordinal='50' />
+              <column datatype='integer' name='ZHVIPerSqft_AllHomes' ordinal='51' />
+              <column datatype='real' name='PctOfHomesDecreasingInValues_AllHomes' ordinal='52' />
+              <column datatype='real' name='PctOfHomesIncreasingInValues_AllHomes' ordinal='53' />
+              <column datatype='real' name='PctOfHomesSellingForGain_AllHomes' ordinal='54' />
+              <column datatype='real' name='PctOfHomesSellingForLoss_AllHomes' ordinal='55' />
+              <column datatype='real' name='PctOfListingsWithPriceReductionsSeasAdj_AllHomes' ordinal='56' />
+              <column datatype='real' name='PctOfListingsWithPriceReductionsSeasAdj_CondoCoop' ordinal='57' />
+              <column datatype='real' name='PctOfListingsWithPriceReductionsSeasAdj_SingleFamilyResidence' ordinal='58' />
+              <column datatype='real' name='PctOfListingsWithPriceReductions_AllHomes' ordinal='59' />
+              <column datatype='real' name='PctOfListingsWithPriceReductions_CondoCoop' ordinal='60' />
+              <column datatype='real' name='PctOfListingsWithPriceReductions_SingleFamilyResidence' ordinal='61' />
+              <column datatype='real' name='PriceToRentRatio_AllHomes' ordinal='62' />
+              <column datatype='integer' name='Sale_Counts' ordinal='63' />
+              <column datatype='integer' name='Sale_Counts_Seas_Adj' ordinal='64' />
+              <column datatype='integer' name='Sale_Prices' ordinal='65' />
+              <column datatype='integer' name='ZHVI_1bedroom' ordinal='66' />
+              <column datatype='integer' name='ZHVI_2bedroom' ordinal='67' />
+              <column datatype='integer' name='ZHVI_3bedroom' ordinal='68' />
+              <column datatype='integer' name='ZHVI_4bedroom' ordinal='69' />
+              <column datatype='integer' name='ZHVI_5BedroomOrMore' ordinal='70' />
+              <column datatype='integer' name='ZHVI_AllHomes' ordinal='71' />
+              <column datatype='integer' name='ZHVI_BottomTier' ordinal='72' />
+              <column datatype='integer' name='ZHVI_CondoCoop' ordinal='73' />
+              <column datatype='integer' name='ZHVI_MiddleTier' ordinal='74' />
+              <column datatype='integer' name='ZHVI_SingleFamilyResidence' ordinal='75' />
+              <column datatype='integer' name='ZHVI_TopTier' ordinal='76' />
+              <column datatype='integer' name='ZRI_AllHomes' ordinal='77' />
+              <column datatype='integer' name='ZRI_AllHomesPlusMultifamily' ordinal='78' />
+              <column datatype='real' name='ZriPerSqft_AllHomes' ordinal='79' />
+              <column datatype='integer' name='Zri_MultiFamilyResidenceRental' ordinal='80' />
+              <column datatype='integer' name='Zri_SingleFamilyResidenceRental' ordinal='81' />
+            </columns>
+          </relation>
+          <relation connection='google-sheets.1fssp0y094mgmk1e4rw001mblmsh' name='uszips' table='[uszips$]' type='table'>
+            <columns gridOrigin='A1:R10001:no:A1:R10001:0' header='yes' outcome='2'>
+              <column datatype='integer' name='zip' ordinal='0' />
+              <column datatype='real' name='lat' ordinal='1' />
+              <column datatype='real' name='lng' ordinal='2' />
+              <column datatype='string' name='city' ordinal='3' />
+              <column datatype='string' name='state_id' ordinal='4' />
+              <column datatype='string' name='state_name' ordinal='5' />
+              <column datatype='boolean' name='zcta' ordinal='6' />
+              <column datatype='string' name='parent_zcta' ordinal='7' />
+              <column datatype='integer' name='population' ordinal='8' />
+              <column datatype='real' name='density' ordinal='9' />
+              <column datatype='integer' name='county_fips' ordinal='10' />
+              <column datatype='string' name='county_name' ordinal='11' />
+              <column datatype='string' name='county_weights' ordinal='12' />
+              <column datatype='string' name='county_names_all' ordinal='13' />
+              <column datatype='string' name='county_fips_all' ordinal='14' />
+              <column datatype='boolean' name='imprecise' ordinal='15' />
+              <column datatype='boolean' name='military' ordinal='16' />
+              <column datatype='string' name='timezone' ordinal='17' />
+            </columns>
+          </relation>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:CD10001:no:A1:CD10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:R10001:no:A1:R10001:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Date</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Date]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>Date</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RegionName</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[RegionName]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>RegionName</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DaysOnZillow_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DaysOnZillow_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>DaysOnZillow_AllHomes</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InventorySeasonallyAdjusted_AllHomes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[InventorySeasonallyAdjusted_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>InventorySeasonallyAdjusted_AllHomes</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>InventoryRaw_AllHomes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[InventoryRaw_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>InventoryRaw_AllHomes</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPricePerSqft_1Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPricePerSqft_1Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPricePerSqft_1Bedroom</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPricePerSqft_2Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPricePerSqft_2Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPricePerSqft_2Bedroom</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPricePerSqft_3Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPricePerSqft_3Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPricePerSqft_3Bedroom</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPricePerSqft_4Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPricePerSqft_4Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPricePerSqft_4Bedroom</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPricePerSqft_5BedroomOrMore</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPricePerSqft_5BedroomOrMore]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPricePerSqft_5BedroomOrMore</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPricePerSqft_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPricePerSqft_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPricePerSqft_AllHomes</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPricePerSqft_CondoCoop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPricePerSqft_CondoCoop]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPricePerSqft_CondoCoop</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPricePerSqft_DuplexTriplex</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPricePerSqft_DuplexTriplex]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPricePerSqft_DuplexTriplex</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPricePerSqft_SingleFamilyResidence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPricePerSqft_SingleFamilyResidence]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPricePerSqft_SingleFamilyResidence</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPrice_1Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPrice_1Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPrice_1Bedroom</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPrice_2Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPrice_2Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPrice_2Bedroom</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPrice_3Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPrice_3Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPrice_3Bedroom</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPrice_4Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPrice_4Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPrice_4Bedroom</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPrice_5BedroomOrMore</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPrice_5BedroomOrMore]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPrice_5BedroomOrMore</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPrice_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPrice_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPrice_AllHomes</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPrice_CondoCoop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPrice_CondoCoop]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPrice_CondoCoop</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPrice_DuplexTriplex</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPrice_DuplexTriplex]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPrice_DuplexTriplex</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianListingPrice_SingleFamilyResidence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianListingPrice_SingleFamilyResidence]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianListingPrice_SingleFamilyResidence</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianPctOfPriceReduction_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianPctOfPriceReduction_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianPctOfPriceReduction_AllHomes</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianPctOfPriceReduction_CondoCoop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianPctOfPriceReduction_CondoCoop]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianPctOfPriceReduction_CondoCoop</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianPctOfPriceReduction_SingleFamilyResidence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianPctOfPriceReduction_SingleFamilyResidence]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianPctOfPriceReduction_SingleFamilyResidence</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianPriceCutDollar_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianPriceCutDollar_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianPriceCutDollar_AllHomes</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianPriceCutDollar_CondoCoop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianPriceCutDollar_CondoCoop]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianPriceCutDollar_CondoCoop</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianPriceCutDollar_SingleFamilyResidence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianPriceCutDollar_SingleFamilyResidence]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianPriceCutDollar_SingleFamilyResidence</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPricePerSqft_1Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPricePerSqft_1Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPricePerSqft_1Bedroom</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPricePerSqft_2Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPricePerSqft_2Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPricePerSqft_2Bedroom</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPricePerSqft_3Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPricePerSqft_3Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPricePerSqft_3Bedroom</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPricePerSqft_4Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPricePerSqft_4Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPricePerSqft_4Bedroom</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPricePerSqft_5BedroomOrMore</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPricePerSqft_5BedroomOrMore]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPricePerSqft_5BedroomOrMore</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPricePerSqft_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPricePerSqft_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPricePerSqft_AllHomes</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPricePerSqft_CondoCoop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPricePerSqft_CondoCoop]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPricePerSqft_CondoCoop</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPricePerSqft_DuplexTriplex</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPricePerSqft_DuplexTriplex]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPricePerSqft_DuplexTriplex</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPricePerSqft_MultiFamilyResidence5PlusUnits</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPricePerSqft_MultiFamilyResidence5PlusUnits]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPricePerSqft_MultiFamilyResidence5PlusUnits</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPricePerSqft_SingleFamilyResidence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPricePerSqft_SingleFamilyResidence]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPricePerSqft_SingleFamilyResidence</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPricePerSqft_Studio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPricePerSqft_Studio]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPricePerSqft_Studio</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPrice_1Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPrice_1Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPrice_1Bedroom</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPrice_2Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPrice_2Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPrice_2Bedroom</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPrice_3Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPrice_3Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPrice_3Bedroom</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPrice_4Bedroom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPrice_4Bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPrice_4Bedroom</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPrice_5BedroomOrMore</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPrice_5BedroomOrMore]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPrice_5BedroomOrMore</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPrice_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPrice_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPrice_AllHomes</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPrice_CondoCoop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPrice_CondoCoop]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPrice_CondoCoop</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPrice_DuplexTriplex</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPrice_DuplexTriplex]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPrice_DuplexTriplex</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPrice_MultiFamilyResidence5PlusUnits</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPrice_MultiFamilyResidence5PlusUnits]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPrice_MultiFamilyResidence5PlusUnits</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPrice_SingleFamilyResidence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPrice_SingleFamilyResidence]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPrice_SingleFamilyResidence</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianRentalPrice_Studio</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianRentalPrice_Studio]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>MedianRentalPrice_Studio</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZHVIPerSqft_AllHomes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZHVIPerSqft_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZHVIPerSqft_AllHomes</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctOfHomesDecreasingInValues_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctOfHomesDecreasingInValues_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>PctOfHomesDecreasingInValues_AllHomes</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctOfHomesIncreasingInValues_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctOfHomesIncreasingInValues_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>PctOfHomesIncreasingInValues_AllHomes</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctOfHomesSellingForGain_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctOfHomesSellingForGain_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>PctOfHomesSellingForGain_AllHomes</remote-alias>
+            <ordinal>54</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctOfHomesSellingForLoss_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctOfHomesSellingForLoss_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>PctOfHomesSellingForLoss_AllHomes</remote-alias>
+            <ordinal>55</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctOfListingsWithPriceReductionsSeasAdj_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctOfListingsWithPriceReductionsSeasAdj_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>PctOfListingsWithPriceReductionsSeasAdj_AllHomes</remote-alias>
+            <ordinal>56</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctOfListingsWithPriceReductionsSeasAdj_CondoCoop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctOfListingsWithPriceReductionsSeasAdj_CondoCoop]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>PctOfListingsWithPriceReductionsSeasAdj_CondoCoop</remote-alias>
+            <ordinal>57</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctOfListingsWithPriceReductionsSeasAdj_SingleFamilyResidence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctOfListingsWithPriceReductionsSeasAdj_SingleFamilyResidence]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>PctOfListingsWithPriceReductionsSeasAdj_SingleFamilyResidence</remote-alias>
+            <ordinal>58</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctOfListingsWithPriceReductions_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctOfListingsWithPriceReductions_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>PctOfListingsWithPriceReductions_AllHomes</remote-alias>
+            <ordinal>59</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctOfListingsWithPriceReductions_CondoCoop</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctOfListingsWithPriceReductions_CondoCoop]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>PctOfListingsWithPriceReductions_CondoCoop</remote-alias>
+            <ordinal>60</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PctOfListingsWithPriceReductions_SingleFamilyResidence</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PctOfListingsWithPriceReductions_SingleFamilyResidence]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>PctOfListingsWithPriceReductions_SingleFamilyResidence</remote-alias>
+            <ordinal>61</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PriceToRentRatio_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PriceToRentRatio_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>PriceToRentRatio_AllHomes</remote-alias>
+            <ordinal>62</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sale_Counts</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sale_Counts]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>Sale_Counts</remote-alias>
+            <ordinal>63</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sale_Counts_Seas_Adj</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sale_Counts_Seas_Adj]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>Sale_Counts_Seas_Adj</remote-alias>
+            <ordinal>64</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sale_Prices</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Sale_Prices]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>Sale_Prices</remote-alias>
+            <ordinal>65</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZHVI_1bedroom</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZHVI_1bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZHVI_1bedroom</remote-alias>
+            <ordinal>66</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZHVI_2bedroom</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZHVI_2bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZHVI_2bedroom</remote-alias>
+            <ordinal>67</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZHVI_3bedroom</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZHVI_3bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZHVI_3bedroom</remote-alias>
+            <ordinal>68</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZHVI_4bedroom</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZHVI_4bedroom]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZHVI_4bedroom</remote-alias>
+            <ordinal>69</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZHVI_5BedroomOrMore</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZHVI_5BedroomOrMore]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZHVI_5BedroomOrMore</remote-alias>
+            <ordinal>70</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZHVI_AllHomes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZHVI_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZHVI_AllHomes</remote-alias>
+            <ordinal>71</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZHVI_BottomTier</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZHVI_BottomTier]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZHVI_BottomTier</remote-alias>
+            <ordinal>72</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZHVI_CondoCoop</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZHVI_CondoCoop]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZHVI_CondoCoop</remote-alias>
+            <ordinal>73</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZHVI_MiddleTier</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZHVI_MiddleTier]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZHVI_MiddleTier</remote-alias>
+            <ordinal>74</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZHVI_SingleFamilyResidence</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZHVI_SingleFamilyResidence]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZHVI_SingleFamilyResidence</remote-alias>
+            <ordinal>75</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZHVI_TopTier</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZHVI_TopTier]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZHVI_TopTier</remote-alias>
+            <ordinal>76</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZRI_AllHomes</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZRI_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZRI_AllHomes</remote-alias>
+            <ordinal>77</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZRI_AllHomesPlusMultifamily</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[ZRI_AllHomesPlusMultifamily]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZRI_AllHomesPlusMultifamily</remote-alias>
+            <ordinal>78</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ZriPerSqft_AllHomes</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ZriPerSqft_AllHomes]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>ZriPerSqft_AllHomes</remote-alias>
+            <ordinal>79</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zri_MultiFamilyResidenceRental</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Zri_MultiFamilyResidenceRental]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>Zri_MultiFamilyResidenceRental</remote-alias>
+            <ordinal>80</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zri_SingleFamilyResidenceRental</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Zri_SingleFamilyResidenceRental]</local-name>
+            <parent-name>[State_time_series]</parent-name>
+            <remote-alias>Zri_SingleFamilyResidenceRental</remote-alias>
+            <ordinal>81</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zip</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[zip]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>zip</remote-alias>
+            <ordinal>82</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lat</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lat]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>lat</remote-alias>
+            <ordinal>83</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>lng</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[lng]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>lng</remote-alias>
+            <ordinal>84</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>city</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[city]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>city</remote-alias>
+            <ordinal>85</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_id</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state_id]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>state_id</remote-alias>
+            <ordinal>86</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>state_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[state_name]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>state_name</remote-alias>
+            <ordinal>87</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>zcta</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[zcta]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>zcta</remote-alias>
+            <ordinal>88</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>parent_zcta</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[parent_zcta]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>parent_zcta</remote-alias>
+            <ordinal>89</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>population</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[population]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>population</remote-alias>
+            <ordinal>90</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>density</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[density]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>density</remote-alias>
+            <ordinal>91</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <precision>15</precision>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;R8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_fips</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[county_fips]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>county_fips</remote-alias>
+            <ordinal>92</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_name</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[county_name]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>county_name</remote-alias>
+            <ordinal>93</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_weights</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[county_weights]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>county_weights</remote-alias>
+            <ordinal>94</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_names_all</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[county_names_all]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>county_names_all</remote-alias>
+            <ordinal>95</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>county_fips_all</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[county_fips_all]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>county_fips_all</remote-alias>
+            <ordinal>96</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>imprecise</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[imprecise]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>imprecise</remote-alias>
+            <ordinal>97</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>military</remote-name>
+            <remote-type>11</remote-type>
+            <local-name>[military]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>military</remote-alias>
+            <ordinal>98</ordinal>
+            <local-type>boolean</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WINBOOL&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>timezone</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[timezone]</local-name>
+            <parent-name>[uszips]</parent-name>
+            <remote-alias>timezone</remote-alias>
+            <ordinal>99</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[uszips_BB57A1E1950C4729B3BA628720C6100A]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='DaysOnZillow AllHomes' datatype='real' name='[DaysOnZillow_AllHomes]' role='measure' type='quantitative' />
+      <column caption='InventoryRaw AllHomes' datatype='integer' name='[InventoryRaw_AllHomes]' role='measure' type='quantitative' />
+      <column caption='InventorySeasonallyAdjusted AllHomes' datatype='integer' name='[InventorySeasonallyAdjusted_AllHomes]' role='measure' type='quantitative' />
+      <column caption='MedianListingPricePerSqft 1Bedroom' datatype='real' name='[MedianListingPricePerSqft_1Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianListingPricePerSqft 2Bedroom' datatype='real' name='[MedianListingPricePerSqft_2Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianListingPricePerSqft 3Bedroom' datatype='real' name='[MedianListingPricePerSqft_3Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianListingPricePerSqft 4Bedroom' datatype='real' name='[MedianListingPricePerSqft_4Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianListingPricePerSqft 5BedroomOrMore' datatype='real' name='[MedianListingPricePerSqft_5BedroomOrMore]' role='measure' type='quantitative' />
+      <column caption='MedianListingPricePerSqft AllHomes' datatype='real' name='[MedianListingPricePerSqft_AllHomes]' role='measure' type='quantitative' />
+      <column caption='MedianListingPricePerSqft CondoCoop' datatype='real' name='[MedianListingPricePerSqft_CondoCoop]' role='measure' type='quantitative' />
+      <column caption='MedianListingPricePerSqft DuplexTriplex' datatype='real' name='[MedianListingPricePerSqft_DuplexTriplex]' role='measure' type='quantitative' />
+      <column caption='MedianListingPricePerSqft SingleFamilyResidence' datatype='real' name='[MedianListingPricePerSqft_SingleFamilyResidence]' role='measure' type='quantitative' />
+      <column caption='MedianListingPrice 1Bedroom' datatype='real' name='[MedianListingPrice_1Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianListingPrice 2Bedroom' datatype='real' name='[MedianListingPrice_2Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianListingPrice 3Bedroom' datatype='real' name='[MedianListingPrice_3Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianListingPrice 4Bedroom' datatype='real' name='[MedianListingPrice_4Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianListingPrice 5BedroomOrMore' datatype='real' name='[MedianListingPrice_5BedroomOrMore]' role='measure' type='quantitative' />
+      <column caption='MedianListingPrice AllHomes' datatype='real' name='[MedianListingPrice_AllHomes]' role='measure' type='quantitative' />
+      <column caption='MedianListingPrice CondoCoop' datatype='real' name='[MedianListingPrice_CondoCoop]' role='measure' type='quantitative' />
+      <column caption='MedianListingPrice DuplexTriplex' datatype='real' name='[MedianListingPrice_DuplexTriplex]' role='measure' type='quantitative' />
+      <column caption='MedianListingPrice SingleFamilyResidence' datatype='real' name='[MedianListingPrice_SingleFamilyResidence]' role='measure' type='quantitative' />
+      <column caption='MedianPctOfPriceReduction AllHomes' datatype='real' name='[MedianPctOfPriceReduction_AllHomes]' role='measure' type='quantitative' />
+      <column caption='MedianPctOfPriceReduction CondoCoop' datatype='real' name='[MedianPctOfPriceReduction_CondoCoop]' role='measure' type='quantitative' />
+      <column caption='MedianPctOfPriceReduction SingleFamilyResidence' datatype='real' name='[MedianPctOfPriceReduction_SingleFamilyResidence]' role='measure' type='quantitative' />
+      <column caption='MedianPriceCutDollar AllHomes' datatype='real' name='[MedianPriceCutDollar_AllHomes]' role='measure' type='quantitative' />
+      <column caption='MedianPriceCutDollar CondoCoop' datatype='real' name='[MedianPriceCutDollar_CondoCoop]' role='measure' type='quantitative' />
+      <column caption='MedianPriceCutDollar SingleFamilyResidence' datatype='real' name='[MedianPriceCutDollar_SingleFamilyResidence]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPricePerSqft 1Bedroom' datatype='real' name='[MedianRentalPricePerSqft_1Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPricePerSqft 2Bedroom' datatype='real' name='[MedianRentalPricePerSqft_2Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPricePerSqft 3Bedroom' datatype='real' name='[MedianRentalPricePerSqft_3Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPricePerSqft 4Bedroom' datatype='real' name='[MedianRentalPricePerSqft_4Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPricePerSqft 5BedroomOrMore' datatype='real' name='[MedianRentalPricePerSqft_5BedroomOrMore]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPricePerSqft AllHomes' datatype='real' name='[MedianRentalPricePerSqft_AllHomes]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPricePerSqft CondoCoop' datatype='real' name='[MedianRentalPricePerSqft_CondoCoop]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPricePerSqft DuplexTriplex' datatype='real' name='[MedianRentalPricePerSqft_DuplexTriplex]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPricePerSqft MultiFamilyResidence5PlusUnits' datatype='real' name='[MedianRentalPricePerSqft_MultiFamilyResidence5PlusUnits]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPricePerSqft SingleFamilyResidence' datatype='real' name='[MedianRentalPricePerSqft_SingleFamilyResidence]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPricePerSqft Studio' datatype='real' name='[MedianRentalPricePerSqft_Studio]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPrice 1Bedroom' datatype='real' name='[MedianRentalPrice_1Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPrice 2Bedroom' datatype='real' name='[MedianRentalPrice_2Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPrice 3Bedroom' datatype='real' name='[MedianRentalPrice_3Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPrice 4Bedroom' datatype='real' name='[MedianRentalPrice_4Bedroom]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPrice 5BedroomOrMore' datatype='real' name='[MedianRentalPrice_5BedroomOrMore]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPrice AllHomes' datatype='real' name='[MedianRentalPrice_AllHomes]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPrice CondoCoop' datatype='real' name='[MedianRentalPrice_CondoCoop]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPrice DuplexTriplex' datatype='real' name='[MedianRentalPrice_DuplexTriplex]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPrice MultiFamilyResidence5PlusUnits' datatype='real' name='[MedianRentalPrice_MultiFamilyResidence5PlusUnits]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPrice SingleFamilyResidence' datatype='real' name='[MedianRentalPrice_SingleFamilyResidence]' role='measure' type='quantitative' />
+      <column caption='MedianRentalPrice Studio' datatype='real' name='[MedianRentalPrice_Studio]' role='measure' type='quantitative' />
+      <column caption='PctOfHomesDecreasingInValues AllHomes' datatype='real' name='[PctOfHomesDecreasingInValues_AllHomes]' role='measure' type='quantitative' />
+      <column caption='PctOfHomesIncreasingInValues AllHomes' datatype='real' name='[PctOfHomesIncreasingInValues_AllHomes]' role='measure' type='quantitative' />
+      <column caption='PctOfHomesSellingForGain AllHomes' datatype='real' name='[PctOfHomesSellingForGain_AllHomes]' role='measure' type='quantitative' />
+      <column caption='PctOfHomesSellingForLoss AllHomes' datatype='real' name='[PctOfHomesSellingForLoss_AllHomes]' role='measure' type='quantitative' />
+      <column caption='PctOfListingsWithPriceReductionsSeasAdj AllHomes' datatype='real' name='[PctOfListingsWithPriceReductionsSeasAdj_AllHomes]' role='measure' type='quantitative' />
+      <column caption='PctOfListingsWithPriceReductionsSeasAdj CondoCoop' datatype='real' name='[PctOfListingsWithPriceReductionsSeasAdj_CondoCoop]' role='measure' type='quantitative' />
+      <column caption='PctOfListingsWithPriceReductionsSeasAdj SingleFamilyResidence' datatype='real' name='[PctOfListingsWithPriceReductionsSeasAdj_SingleFamilyResidence]' role='measure' type='quantitative' />
+      <column caption='PctOfListingsWithPriceReductions AllHomes' datatype='real' name='[PctOfListingsWithPriceReductions_AllHomes]' role='measure' type='quantitative' />
+      <column caption='PctOfListingsWithPriceReductions CondoCoop' datatype='real' name='[PctOfListingsWithPriceReductions_CondoCoop]' role='measure' type='quantitative' />
+      <column caption='PctOfListingsWithPriceReductions SingleFamilyResidence' datatype='real' name='[PctOfListingsWithPriceReductions_SingleFamilyResidence]' role='measure' type='quantitative' />
+      <column caption='PriceToRentRatio AllHomes' datatype='real' name='[PriceToRentRatio_AllHomes]' role='measure' type='quantitative' />
+      <column caption='State' datatype='string' name='[RegionName]' role='dimension' type='nominal' />
+      <column caption='Sale Counts' datatype='integer' name='[Sale_Counts]' role='measure' type='quantitative' />
+      <column caption='Sale Counts Seas Adj' datatype='integer' name='[Sale_Counts_Seas_Adj]' role='measure' type='quantitative' />
+      <column caption='Sale Prices' datatype='integer' name='[Sale_Prices]' role='measure' type='quantitative' />
+      <column caption='ZHVIPerSqft AllHomes' datatype='integer' name='[ZHVIPerSqft_AllHomes]' role='measure' type='quantitative' />
+      <column caption='ZHVI 1bedroom' datatype='integer' name='[ZHVI_1bedroom]' role='measure' type='quantitative' />
+      <column caption='ZHVI 2bedroom' datatype='integer' name='[ZHVI_2bedroom]' role='measure' type='quantitative' />
+      <column caption='ZHVI 3bedroom' datatype='integer' name='[ZHVI_3bedroom]' role='measure' type='quantitative' />
+      <column caption='ZHVI 4bedroom' datatype='integer' name='[ZHVI_4bedroom]' role='measure' type='quantitative' />
+      <column caption='ZHVI 5BedroomOrMore' datatype='integer' name='[ZHVI_5BedroomOrMore]' role='measure' type='quantitative' />
+      <column caption='ZHVI AllHomes' datatype='integer' name='[ZHVI_AllHomes]' role='measure' type='quantitative' />
+      <column caption='ZHVI BottomTier' datatype='integer' name='[ZHVI_BottomTier]' role='measure' type='quantitative' />
+      <column caption='ZHVI CondoCoop' datatype='integer' name='[ZHVI_CondoCoop]' role='measure' type='quantitative' />
+      <column caption='ZHVI MiddleTier' datatype='integer' name='[ZHVI_MiddleTier]' role='measure' type='quantitative' />
+      <column caption='ZHVI SingleFamilyResidence' datatype='integer' name='[ZHVI_SingleFamilyResidence]' role='measure' type='quantitative' />
+      <column caption='ZHVI TopTier' datatype='integer' name='[ZHVI_TopTier]' role='measure' type='quantitative' />
+      <column caption='ZRI AllHomesPlusMultifamily' datatype='integer' name='[ZRI_AllHomesPlusMultifamily]' role='measure' type='quantitative' />
+      <column caption='ZRI AllHomes' datatype='integer' name='[ZRI_AllHomes]' role='measure' type='quantitative' />
+      <column caption='ZriPerSqft AllHomes' datatype='real' name='[ZriPerSqft_AllHomes]' role='measure' type='quantitative' />
+      <column caption='Zri MultiFamilyResidenceRental' datatype='integer' name='[Zri_MultiFamilyResidenceRental]' role='measure' type='quantitative' />
+      <column caption='Zri SingleFamilyResidenceRental' datatype='integer' name='[Zri_SingleFamilyResidenceRental]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='State_time_series' datatype='table' name='[__tableau_internal_object_id__].[State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78]' role='measure' type='quantitative' />
+      <_.fcp.ObjectModelTableType.true...column caption='uszips' datatype='table' name='[__tableau_internal_object_id__].[uszips_BB57A1E1950C4729B3BA628720C6100A]' role='measure' type='quantitative' />
+      <column caption='City' datatype='string' name='[city]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='County Fips' datatype='integer' name='[county_fips]' role='measure' type='quantitative' />
+      <column caption='County Fips All' datatype='string' name='[county_fips_all]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County Name' datatype='string' name='[county_name]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County Names All' datatype='string' name='[county_names_all]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='County Weights' datatype='string' name='[county_weights]' role='dimension' semantic-role='[County].[Name]' type='nominal' />
+      <column caption='Density' datatype='real' name='[density]' role='measure' type='quantitative' />
+      <column caption='Imprecise' datatype='boolean' name='[imprecise]' role='dimension' type='nominal' />
+      <column aggregation='Avg' caption='Lat' datatype='real' name='[lat]' role='measure' semantic-role='[Geographical].[Latitude]' type='quantitative' />
+      <column caption='Lng' datatype='real' name='[lng]' role='measure' type='quantitative' />
+      <column caption='Military' datatype='boolean' name='[military]' role='dimension' type='nominal' />
+      <column caption='Parent Zcta' datatype='string' name='[parent_zcta]' role='dimension' type='nominal' />
+      <column caption='Population' datatype='integer' name='[population]' role='measure' type='quantitative' />
+      <column caption='State Id' datatype='string' name='[state_id]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='State Name' datatype='string' name='[state_name]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='Timezone' datatype='string' name='[timezone]' role='dimension' type='nominal' />
+      <column caption='Zcta' datatype='boolean' name='[zcta]' role='dimension' type='nominal' />
+      <column aggregation='Sum' caption='Zip' datatype='integer' default-format='*00000' name='[zip]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='State_time_series' id='State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78'>
+            <properties context=''>
+              <relation connection='google-sheets.0f9hegc0cy1pb7123m2xv1b0lhva' name='State_time_series' table='[State_time_series$]' type='table'>
+                <columns gridOrigin='A1:CD10001:no:A1:CD10001:0' header='yes' outcome='2'>
+                  <column datatype='date' name='Date' ordinal='0' />
+                  <column datatype='string' name='RegionName' ordinal='1' />
+                  <column datatype='real' name='DaysOnZillow_AllHomes' ordinal='2' />
+                  <column datatype='integer' name='InventorySeasonallyAdjusted_AllHomes' ordinal='3' />
+                  <column datatype='integer' name='InventoryRaw_AllHomes' ordinal='4' />
+                  <column datatype='real' name='MedianListingPricePerSqft_1Bedroom' ordinal='5' />
+                  <column datatype='real' name='MedianListingPricePerSqft_2Bedroom' ordinal='6' />
+                  <column datatype='real' name='MedianListingPricePerSqft_3Bedroom' ordinal='7' />
+                  <column datatype='real' name='MedianListingPricePerSqft_4Bedroom' ordinal='8' />
+                  <column datatype='real' name='MedianListingPricePerSqft_5BedroomOrMore' ordinal='9' />
+                  <column datatype='real' name='MedianListingPricePerSqft_AllHomes' ordinal='10' />
+                  <column datatype='real' name='MedianListingPricePerSqft_CondoCoop' ordinal='11' />
+                  <column datatype='real' name='MedianListingPricePerSqft_DuplexTriplex' ordinal='12' />
+                  <column datatype='real' name='MedianListingPricePerSqft_SingleFamilyResidence' ordinal='13' />
+                  <column datatype='real' name='MedianListingPrice_1Bedroom' ordinal='14' />
+                  <column datatype='real' name='MedianListingPrice_2Bedroom' ordinal='15' />
+                  <column datatype='real' name='MedianListingPrice_3Bedroom' ordinal='16' />
+                  <column datatype='real' name='MedianListingPrice_4Bedroom' ordinal='17' />
+                  <column datatype='real' name='MedianListingPrice_5BedroomOrMore' ordinal='18' />
+                  <column datatype='real' name='MedianListingPrice_AllHomes' ordinal='19' />
+                  <column datatype='real' name='MedianListingPrice_CondoCoop' ordinal='20' />
+                  <column datatype='real' name='MedianListingPrice_DuplexTriplex' ordinal='21' />
+                  <column datatype='real' name='MedianListingPrice_SingleFamilyResidence' ordinal='22' />
+                  <column datatype='real' name='MedianPctOfPriceReduction_AllHomes' ordinal='23' />
+                  <column datatype='real' name='MedianPctOfPriceReduction_CondoCoop' ordinal='24' />
+                  <column datatype='real' name='MedianPctOfPriceReduction_SingleFamilyResidence' ordinal='25' />
+                  <column datatype='real' name='MedianPriceCutDollar_AllHomes' ordinal='26' />
+                  <column datatype='real' name='MedianPriceCutDollar_CondoCoop' ordinal='27' />
+                  <column datatype='real' name='MedianPriceCutDollar_SingleFamilyResidence' ordinal='28' />
+                  <column datatype='real' name='MedianRentalPricePerSqft_1Bedroom' ordinal='29' />
+                  <column datatype='real' name='MedianRentalPricePerSqft_2Bedroom' ordinal='30' />
+                  <column datatype='real' name='MedianRentalPricePerSqft_3Bedroom' ordinal='31' />
+                  <column datatype='real' name='MedianRentalPricePerSqft_4Bedroom' ordinal='32' />
+                  <column datatype='real' name='MedianRentalPricePerSqft_5BedroomOrMore' ordinal='33' />
+                  <column datatype='real' name='MedianRentalPricePerSqft_AllHomes' ordinal='34' />
+                  <column datatype='real' name='MedianRentalPricePerSqft_CondoCoop' ordinal='35' />
+                  <column datatype='real' name='MedianRentalPricePerSqft_DuplexTriplex' ordinal='36' />
+                  <column datatype='real' name='MedianRentalPricePerSqft_MultiFamilyResidence5PlusUnits' ordinal='37' />
+                  <column datatype='real' name='MedianRentalPricePerSqft_SingleFamilyResidence' ordinal='38' />
+                  <column datatype='real' name='MedianRentalPricePerSqft_Studio' ordinal='39' />
+                  <column datatype='real' name='MedianRentalPrice_1Bedroom' ordinal='40' />
+                  <column datatype='real' name='MedianRentalPrice_2Bedroom' ordinal='41' />
+                  <column datatype='real' name='MedianRentalPrice_3Bedroom' ordinal='42' />
+                  <column datatype='real' name='MedianRentalPrice_4Bedroom' ordinal='43' />
+                  <column datatype='real' name='MedianRentalPrice_5BedroomOrMore' ordinal='44' />
+                  <column datatype='real' name='MedianRentalPrice_AllHomes' ordinal='45' />
+                  <column datatype='real' name='MedianRentalPrice_CondoCoop' ordinal='46' />
+                  <column datatype='real' name='MedianRentalPrice_DuplexTriplex' ordinal='47' />
+                  <column datatype='real' name='MedianRentalPrice_MultiFamilyResidence5PlusUnits' ordinal='48' />
+                  <column datatype='real' name='MedianRentalPrice_SingleFamilyResidence' ordinal='49' />
+                  <column datatype='real' name='MedianRentalPrice_Studio' ordinal='50' />
+                  <column datatype='integer' name='ZHVIPerSqft_AllHomes' ordinal='51' />
+                  <column datatype='real' name='PctOfHomesDecreasingInValues_AllHomes' ordinal='52' />
+                  <column datatype='real' name='PctOfHomesIncreasingInValues_AllHomes' ordinal='53' />
+                  <column datatype='real' name='PctOfHomesSellingForGain_AllHomes' ordinal='54' />
+                  <column datatype='real' name='PctOfHomesSellingForLoss_AllHomes' ordinal='55' />
+                  <column datatype='real' name='PctOfListingsWithPriceReductionsSeasAdj_AllHomes' ordinal='56' />
+                  <column datatype='real' name='PctOfListingsWithPriceReductionsSeasAdj_CondoCoop' ordinal='57' />
+                  <column datatype='real' name='PctOfListingsWithPriceReductionsSeasAdj_SingleFamilyResidence' ordinal='58' />
+                  <column datatype='real' name='PctOfListingsWithPriceReductions_AllHomes' ordinal='59' />
+                  <column datatype='real' name='PctOfListingsWithPriceReductions_CondoCoop' ordinal='60' />
+                  <column datatype='real' name='PctOfListingsWithPriceReductions_SingleFamilyResidence' ordinal='61' />
+                  <column datatype='real' name='PriceToRentRatio_AllHomes' ordinal='62' />
+                  <column datatype='integer' name='Sale_Counts' ordinal='63' />
+                  <column datatype='integer' name='Sale_Counts_Seas_Adj' ordinal='64' />
+                  <column datatype='integer' name='Sale_Prices' ordinal='65' />
+                  <column datatype='integer' name='ZHVI_1bedroom' ordinal='66' />
+                  <column datatype='integer' name='ZHVI_2bedroom' ordinal='67' />
+                  <column datatype='integer' name='ZHVI_3bedroom' ordinal='68' />
+                  <column datatype='integer' name='ZHVI_4bedroom' ordinal='69' />
+                  <column datatype='integer' name='ZHVI_5BedroomOrMore' ordinal='70' />
+                  <column datatype='integer' name='ZHVI_AllHomes' ordinal='71' />
+                  <column datatype='integer' name='ZHVI_BottomTier' ordinal='72' />
+                  <column datatype='integer' name='ZHVI_CondoCoop' ordinal='73' />
+                  <column datatype='integer' name='ZHVI_MiddleTier' ordinal='74' />
+                  <column datatype='integer' name='ZHVI_SingleFamilyResidence' ordinal='75' />
+                  <column datatype='integer' name='ZHVI_TopTier' ordinal='76' />
+                  <column datatype='integer' name='ZRI_AllHomes' ordinal='77' />
+                  <column datatype='integer' name='ZRI_AllHomesPlusMultifamily' ordinal='78' />
+                  <column datatype='real' name='ZriPerSqft_AllHomes' ordinal='79' />
+                  <column datatype='integer' name='Zri_MultiFamilyResidenceRental' ordinal='80' />
+                  <column datatype='integer' name='Zri_SingleFamilyResidenceRental' ordinal='81' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+          <object caption='uszips' id='uszips_BB57A1E1950C4729B3BA628720C6100A'>
+            <properties context=''>
+              <relation connection='google-sheets.1fssp0y094mgmk1e4rw001mblmsh' name='uszips' table='[uszips$]' type='table'>
+                <columns gridOrigin='A1:R10001:no:A1:R10001:0' header='yes' outcome='2'>
+                  <column datatype='integer' name='zip' ordinal='0' />
+                  <column datatype='real' name='lat' ordinal='1' />
+                  <column datatype='real' name='lng' ordinal='2' />
+                  <column datatype='string' name='city' ordinal='3' />
+                  <column datatype='string' name='state_id' ordinal='4' />
+                  <column datatype='string' name='state_name' ordinal='5' />
+                  <column datatype='boolean' name='zcta' ordinal='6' />
+                  <column datatype='string' name='parent_zcta' ordinal='7' />
+                  <column datatype='integer' name='population' ordinal='8' />
+                  <column datatype='real' name='density' ordinal='9' />
+                  <column datatype='integer' name='county_fips' ordinal='10' />
+                  <column datatype='string' name='county_name' ordinal='11' />
+                  <column datatype='string' name='county_weights' ordinal='12' />
+                  <column datatype='string' name='county_names_all' ordinal='13' />
+                  <column datatype='string' name='county_fips_all' ordinal='14' />
+                  <column datatype='boolean' name='imprecise' ordinal='15' />
+                  <column datatype='boolean' name='military' ordinal='16' />
+                  <column datatype='string' name='timezone' ordinal='17' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+        <relationships>
+          <relationship>
+            <expression op='='>
+              <expression op='[RegionName]' />
+              <expression op='[state_name]' />
+            </expression>
+            <first-end-point object-id='State!time!series_B4364B198EFE48BCB6FB8F2B6733FA78' />
+            <second-end-point object-id='uszips_BB57A1E1950C4729B3BA628720C6100A' />
+          </relationship>
+        </relationships>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <mapsources>
+    <mapsource name='Tableau' />
+  </mapsources>
+  <worksheets>
+    <worksheet name='Sheet 1'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='State_time_series (State_time_series)' name='federated.1k2dj6y1ydbmjj14gnn0s0gwemsw' />
+          </datasources>
+          <mapsources>
+            <mapsource name='Tableau' />
+          </mapsources>
+          <datasource-dependencies datasource='federated.1k2dj6y1ydbmjj14gnn0s0gwemsw'>
+            <column caption='Sale Prices' datatype='integer' name='[Sale_Prices]' role='measure' type='quantitative' />
+            <column-instance column='[Sale_Prices]' derivation='Sum' name='[sum:Sale_Prices:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <encoding attr='space' class='0' field='[federated.1k2dj6y1ydbmjj14gnn0s0gwemsw].[Longitude (generated)]' field-type='quantitative' max='36503493.854478285' min='23763440.167392123' projection='EPSG:3857' range-type='fixed' scope='cols' type='space' />
+            <encoding attr='space' class='0' field='[federated.1k2dj6y1ydbmjj14gnn0s0gwemsw].[Latitude (generated)]' field-type='quantitative' max='8234035.4009372536' min='971296.68823827174' projection='EPSG:3857' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='omit-on-special' field='[federated.1k2dj6y1ydbmjj14gnn0s0gwemsw].[Longitude (generated)]' value='false' />
+            <format attr='break-on-special' field='[federated.1k2dj6y1ydbmjj14gnn0s0gwemsw].[Longitude (generated)]' value='false' />
+            <format attr='show-null-value-warning' field='[federated.1k2dj6y1ydbmjj14gnn0s0gwemsw].[Longitude (generated)]' value='false' />
+          </style-rule>
+          <style-rule element='map-layer'>
+            <format attr='enabled' id='b01002_001e' value='false' />
+            <format attr='enabled' id='b01002_002e' value='false' />
+            <format attr='enabled' id='b01002_003e' value='false' />
+            <format attr='enabled' id='dp02_0001e' value='false' />
+            <format attr='enabled' id='dp02_0015e' value='false' />
+            <format attr='enabled' id='dp03_0027e_plus_dp03_0029e' value='false' />
+            <format attr='enabled' id='dp03_0028e' value='false' />
+            <format attr='enabled' id='dp03_0030e_plus_dp03_0031e' value='false' />
+            <format attr='enabled' id='dp03_0062e' value='false' />
+            <format attr='enabled' id='dp03_0088e' value='false' />
+            <format attr='enabled' id='dp04_0001e' value='false' />
+            <format attr='enabled' id='dp04_0046e' value='false' />
+            <format attr='enabled' id='dp04_0047e' value='false' />
+            <format attr='enabled' id='dp04_0089e' value='false' />
+            <format attr='enabled' id='dp05_0001e' value='false' />
+            <format attr='enabled' id='dp05_0002e_div_dp05_0003e' value='false' />
+            <format attr='enabled' id='dp05_0032e' value='false' />
+            <format attr='enabled' id='dp05_0033e' value='false' />
+            <format attr='enabled' id='dp05_0034e' value='false' />
+            <format attr='enabled' id='dp05_0039e' value='false' />
+            <format attr='enabled' id='dp05_0047e' value='false' />
+            <format attr='enabled' id='dp05_0053e' value='false' />
+            <format attr='enabled' id='dp05_0066e' value='false' />
+            <format attr='enabled' id='dp05_0077e' value='false' />
+          </style-rule>
+          <style-rule element='map'>
+            <format attr='washout' value='0' />
+            <format attr='map-style' value='light' />
+          </style-rule>
+          <style-rule element='map-data-layer'>
+            <format attr='palette' value='tableau-map-blue-green-light' />
+            <format attr='geo-area-type' value='State' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='on' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <size column='[federated.1k2dj6y1ydbmjj14gnn0s0gwemsw].[sum:Sale_Prices:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-line-first' value='true' />
+                <format attr='mark-labels-line-last' value='true' />
+                <format attr='mark-labels-range-min' value='true' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-labels-range-scope' value='pane' />
+                <format attr='mark-labels-range-field' value='' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.1k2dj6y1ydbmjj14gnn0s0gwemsw].[Latitude (generated)]</rows>
+        <cols>[federated.1k2dj6y1ydbmjj14gnn0s0gwemsw].[Longitude (generated)]</cols>
+      </table>
+      <simple-id uuid='{DD4FB869-0D2E-43E3-9BA4-9BEEA09F609B}' />
+    </worksheet>
+    <worksheet name='Sheet 2'>
+      <table>
+        <view>
+          <datasources />
+          <aggregation value='true' />
+        </view>
+        <style />
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+      </table>
+      <simple-id uuid='{17649273-04CE-4C25-A2A0-9F6D2E4C17EC}' />
+    </worksheet>
+  </worksheets>
+  <windows saved-dpi-scale-factor='1.25' source-height='63'>
+    <window class='worksheet' maximized='true' name='Sheet 1'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='0'>
+            <card pane-specification-id='0' param='[federated.1k2dj6y1ydbmjj14gnn0s0gwemsw].[sum:Sale_Prices:qk]' type='size' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='1' />
+      </viewpoint>
+      <simple-id uuid='{A01DE313-CFCB-4001-9E02-FE47B5F1E9CD}' />
+    </window>
+    <window class='worksheet' name='Sheet 2'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{FEE2CA16-7919-44FF-8FCC-54145B579681}' />
+    </window>
+  </windows>
+</workbook>
