@@ -409,7 +409,7 @@ a:hover {
   margin: 0 4px;
   border-radius: 0;
   opacity: 1;
-  transition: 0.3s;
+  transition: 1.05s;
 }
 
 .carousel-pagination .swiper-pagination-bullet-active {
@@ -441,7 +441,7 @@ a:hover {
 .nav-arrow-b .owl-arrow .owl-nav .owl-next {
   padding: .7rem 1.5rem !important;
   display: inline-block;
-  transition: all 0.6s ease-in-out;
+  transition: all 1.05s ease-in-out;
   color: #ffffff;
   background-color: #2eca6a;
   opacity: .9;
@@ -449,7 +449,7 @@ a:hover {
 
 .nav-arrow-b .owl-arrow .owl-nav .owl-prev.disabled,
 .nav-arrow-b .owl-arrow .owl-nav .owl-next.disabled {
-  transition: all 0.6s ease-in-out;
+  transition: all 1.05s ease-in-out;
   color: #ffffff;
 }
 
@@ -485,7 +485,7 @@ a:hover {
   width: 40px;
   height: 40px;
   border-radius: 50px;
-  transition: all 0.4s;
+  transition: all 1.05s;
 }
 
 .back-to-top i {
@@ -552,7 +552,7 @@ a:hover {
 //--//-->   BUTTON
 ======================================*/
 .btn {
-  transition: .5s ease;
+  transition: 1.05s ease;
 }
 
 .btn.btn-a, .btn.btn-b {
