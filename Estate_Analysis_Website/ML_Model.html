@@ -48,23 +48,23 @@
       <div class="navbar-collapse collapse justify-content-center" id="navbarDefault">
         <ul class="navbar-nav">
           <li class="nav-item">
-            <a class="nav-link " href="about.html">About</a>
+            <a class="nav-link " href="about.html">Overview</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="property-grid.html">ML Model</a>
+            <a class="nav-link " href="ML_Model.html">ML Model</a>
           </li>
 
           <li class="nav-item">
-            <a class="nav-link " href="blog-grid.html">Analysis</a>
+            <a class="nav-link " href="analysis.html">Analysis</a>
           </li>
 
           <li class="nav-item">
             <a class="nav-link " href="Visualization.html">Visualizations</a>
           </li>
-
+          
           <li class="nav-item">
-            <a class="nav-link " href="blog-grid.html">Team</a>
+            <a class="nav-link " href="team.html">Team</a>
           </li>
 <!-- 
           <li class="nav-item dropdown">
@@ -82,13 +82,66 @@
         </ul>
       </div>
     </div>
-  </nav><!-- End Header/Navbar -->
+  </nav>
 
   <br>
-<br>
-<br>
-<br>
-<br>
+  <br>
+  <br><br><br><br><br>
+  <div class="container">
+    <h4 class="text-uppercase">Model Selection and Specification</h4><br>
+    <p>For predicting and forecasting the future prices, since the data was available over time, we will be using the time series, forecasting model. </p>
+    <p>The main components that will be considered in a time series are,</p>
+    <br>
+      <ol>
+        <li>Level-The baseline value for the series if it were a straight line.</li>
+        <br>
+        <li>Trend-Linear increasing or decreasing behavior of the series over time.</li>
+        <br>
+        <li>Seasonality- Repeating patterns or cycles of behavior over time.</li>
+        <br>
+        <li>Noise-Variability in the observations that the model cannot explain.</li>
+      </ol>
+    <br>
+    <p>When we analyzed our datasets using Tableau, we could see trends and seasonality in the dataset. Hence, it is essential to consider all four components while building the time series forecasting models.</p>
+    <br>
+    <h4 class="text-uppercase">Time Series Forcasting Models</h4><br>
+    <p>Choosing the forecast method depends on various factors like the context of the forecast, the relevance and availability of historical data, the degree of accuracy desirable, the time period to be forecast, the other factors like recession and capturing structural changes, and some of the models that were considered in discussed below. </p>
+    <br>
+    <h6 class="text-uppercase">ARIMA</h6><br>
+    <li>ARIMA stands for Autoregressive Integrated Moving Average.</li>
+    <br>
+    <li>Statistical Technique used to model univariate time series data.</li>
+    <br>
+    <li>Works best when there is non-stationarity in the dataset, meaning that the mean and variance of the dataset over the timeframe will not be constant.</li>
+    <br>
+    <li>The ARIMA model, however, fails to capture structural changes. </li>
+    <br>
+    <h6 class="text-uppercase">LSTM</h6><br>
+    <li>LSTM is a recurrent neural network, and the abbreviation is Long Short Term Memory.</li>
+    <br>
+    <li>The model learns from the recent past data, and the data signals also travel in the backward direction with a feedback mechanism, making it a more effective time series forecasting model.</li>
+    <br>
+    <li>However, the LSTM model requires a large amount of data resources and a longer time to get trained, and high memory bandwidth making it inefficient.</li>
+    <br>
+    <h6 class="text-uppercase">PROPHET</h6><br>
+    <li>Prophet is a procedure for forecasting time series data based on an additive model where non-linear trends are fit with yearly, weekly, and daily seasonality, plus holiday effects.</li>
+    <br>
+    <li>It works best with time series that have strong seasonal effects and several seasons of historical data.</li>
+    <br>
+    <li>Prophet is robust to missing data and shifts in the trend and typically handles outliers well.</li>
+    <br>
+    <p>Prophet library utilizes the additive regression model y(t) comprising the following components.</p>
+    <br>
+    <li>Trend - models non-periodic changes.</li>
+    <br>
+    <li>Seasonality - represents periodic changes.</li>
+    <br>
+    <li>Holidays component - contributes information about holidays and events.</li>
+    <br>
+    <p>Prophet includes the components that need to be considered for real estate price prediction data as there is a trend observed along with some periodic changes in the prices. Also, considering the data available from 1996, the prophet time series forecasting model was chosen for analysis.</p>
+    <br>
+    <br>
+  </div>
   
 
   <div id="preloader"></div>
