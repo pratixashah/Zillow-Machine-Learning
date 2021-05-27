@@ -40,14 +40,14 @@ Tableau was used to visualize the data.
 ## Folder structure and getting started
 
 1. The website have been created and HTML,CSS and JS in the folder Estate_Analysis_Website
-  1. Index.html- Landing page
-  2. Overview tab- gives an overview of the project
-  3. ML Model tab- gives the understanding on the model used and various other models considered.
-  4. Analysis
-    1. Projection Comparison- The table with the actual and forecast values for states considered is displayed.
-    2. Forecast tab- Gives the visualizations of forecast until the year 2021.
-  5. Visualizations- Tableau story board.
-  6. Teams tab- the members of the project team.
+    1. Index.html- Landing page
+    2. Overview tab- gives an overview of the project
+    3. ML Model tab- gives the understanding on the model used and various other models considered.
+    4. Analysis
+      1. Projection Comparison- The table with the actual and forecast values for states considered is displayed.
+      2. Forecast tab- Gives the visualizations of forecast until the year 2021.
+    5. Visualizations- Tableau story board.
+    6. Teams tab- the members of the project team.
 2. State wise data from kaggle is read in Google collaboratory file. Cleaned and converted 5 dataframes for states CA, WA, NY, FL, TX. Link for the colab is : #########UPDATE
 3. Model Training is done in the colab for the 5 datasets and the forecast figures with the projection table is extracted. Link for the colab is : #########UPDATE
 
