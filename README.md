@@ -48,8 +48,9 @@ Tableau was used to visualize the data.
       2. Forecast tab (analysis2.html)- Gives the visualizations of forecast until the year 2021.
     5. Visualizations (visualization.html)- Tableau story board.
     6. Teams tab (teams.html)- the members of the project team.
-2. State wise data from kaggle is read in Google collaboratory file. Cleaned and converted to 5 dataframes for states CA, WA, NY, FL, TX. Link for the colab is : #########UPDATE
-3. Model Training is done in the colab for the 5 datasets and the forecast figures with the projection table is extracted. Link for the colab is : #########UPDATE
+2. State wise data from kaggle is read in Google collaboratory file. Cleaned and converted to 5 dataframes for states CA, WA, NY, FL, TX. Link for the colab is : https://colab.research.google.com/drive/1HENWcPr8fOFXckZIB4u9DlfQLT-_TXFi?usp=sharing
+3. Model Training is done in the colab for the 5 datasets and the forecast figures with the projection table is extracted. Link for the colab is : https://colab.research.google.com/drive/191JJ7szyNNE80tcR7YUEAlD5iRO2e-Wj?usp=sharing
+4. FOr all the CSV's and the colab notebooks please use the google drive link: https://drive.google.com/drive/u/1/folders/1C20XRGT5dzPwZvMXg2YjwgONHbFVNgyT
 
 
 
