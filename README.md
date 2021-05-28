@@ -35,7 +35,19 @@ Prophet includes the components that need to be considered for real estate price
 
 ## Visualization
 
-Tableau was used to visualize the data.
+Tableau was used to visualize the Zillow data and find some interesting analysis and trends. 
+
+file: ZillowViz_AllStates_Workbook.twb
+Tableau Public link - https://public.tableau.com/app/profile/pratixa3388/viz/ZillowViz_AllStates_Workbook/Zillow_Story
+
+The visualizations include:
+1. Sales Trend (Yearly) - Real Estate Market showing slightly upward trend for CA, NY, TX and WA. For FL trend seems to be stable.
+2. Listing Price vs Rental Price (Quarterly) - It basically shows Listing price and Renting price trends. As per the analysis, Both Listing and Renting Price are inline because these both values affected by same factors like Neighborhood, School rating, crime rate for the particular location.
+3. Sales Statistics (Monthly) - According to the Zillow data Estate Market is going higher during Spring and Summer. This can be attributed to the beginning of the academic year and preferable climate conditions
+4. Zestimate vs Actual Sales Price - This analysis follows the Law of supply and demand. More Demand tends to rise in the price and more supply price falls. It shows the comparison between ML forecasting value (Zestimate) provided by Zillow and Actual price. Here Zillow's ML seems working for FL, NY and WA. But for CA and TX Zestimate seems bit off, people migration from CA to TX could be one of the reasons for it.
+5. Rental Density - This geographical Visualization represents Renter Occupied Housing Unit density across USA by color gradient. The highest Rental value is for NY and the second highest one for CA.
+6. Occupation Statistics on Sales - This map shows Distribution of White-Collar Occupation by county across USA considered as a potential buyers. County LA from CA has the highest numbers of sales among all the county from 5 selected states.
+
 
 ## Folder structure and getting started
 
