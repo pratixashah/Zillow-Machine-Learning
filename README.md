@@ -1,4 +1,4 @@
-# Real Estate Research
+# Machine Learning on Real Estate
 
 We all know that real estate plays an integral role in the U.S. economy. Residential real estate helps provide housing for families, and it happens to be the most significant source of wealth and savings for many people. Also, the home is the most extensive and most expensive purchase a person makes in his or her lifetime. Real estate trends have changed over time, and many factors weigh-in like recession, pandemic, market boom, etc. Therefore, understanding the real estate market is compelling to get more empowered as a buyer or seller.
 
